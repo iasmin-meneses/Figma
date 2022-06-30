@@ -1,0 +1,58 @@
+*{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 30px;
+width: 100%;
+text-align: center;
+
+}
+body{
+    text-align: center;
+    background-image:url(./background.jfif);
+    /* Sempre trabalhar o backgound de fundo dentro do body
+     mesmo nao sendo uma url de site é uma url de arquivo então digita url. (coloca um ponto pois esta na mesma pasta se estivesse na pasta anterior seria dois pontos e ele iria para a pasta anterior,.
+     Apos dar um ponto coloca / e ele ja mostra os arquivos desta pasta*/
+    background-repeat: no-repeat;
+    /* Para que a imagem n se repita*/
+    background-size: cover;
+    /* no background size temos as opções: auto ele vai arruma a img automaticamente; 
+    opçao contain: ele vai tentar colocar a imagem toda dentro do site; 
+    e tem a opçao cover: ele vai tentar arrumar a imagem da melhor forma possivel para quer ela caiba toda no site*/
+    background-position: center;
+    /* center center fixed: posiciona totalmente ao centro /centraliza a imagem tanto verticalmente quanto horizontalmente e fixar assim
+    left center: posiciona da esquerda para o centro
+    right center: posiciona da direita para o centro*/
+    background-size: 100%;
+
+}
+
+.controle {
+    display: block;
+    width: 45%;
+    height: 45%;
+    margin:20px;
+    padding:20px;
+    margin:auto/* centraliza a imagem*/
+    
+}
+
+.botao{
+    width:30%;
+    height:20%;
+    padding: 30px;
+    cursor: pointer;
+    text-align: center; 
+    margin:auto
+    
+}
+
+h1{
+    text-align: center;
+    font-size:50px ;
+}
+h2{
+    text-align: center;
+    font-size:30px ;
+}
+
+
+
